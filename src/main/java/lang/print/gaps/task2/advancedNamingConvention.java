@@ -12,10 +12,10 @@ public class advancedNamingConvention {
     }
 
     public static void callToFriend(int ageFriend) {
-       System.out.println("You called a friend. He's " + ageFriend +"years old");
+       System.out.println( ageFriend);
     }
 
     public static void callByNumber(int number) {
-        System.out.println("You called the number:" + number );
+        System.out.println(number );
     }
 }
